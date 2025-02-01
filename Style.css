@@ -1,3 +1,21 @@
 body{
     background-color: black;
 }
+h1{
+    color: rgba(238, 225, 241, 0.863);
+    font-family: 'poppins',serif;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 19px;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: rgba(238, 225, 241, 0.863);
+    text-align: ;
+}
