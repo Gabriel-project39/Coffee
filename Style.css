@@ -43,3 +43,32 @@ h1{
 h1:hover {
     background: #deab5f;
 }
+.main-btn{
+        position: relative;
+        width: 100%;
+        height: 500px; /* Keep the image height as it is */
+        background-image: url('your-coffee-image.jpg'); /* Replace with your image */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: flex-end; /* Places the button at the bottom */
+        padding-bottom: 50px; /* Moves the button slightly up */
+        cursor: pointer;
+    }
+    
+    
+    .shop-now {
+        position: absolute;
+        left: 50%;
+        bottom: 20px; /* Adjust this to move the button slightly up */
+        transform: translateX(-50%); /* Centers the button horizontally */
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
