@@ -71,6 +71,7 @@ h1:hover {
     padding: 0% 0px;
     margin:  0px;
     align-items: center;
+    font-size: 60px;
   }
   /* Main Section */
 .story-section {
@@ -78,13 +79,15 @@ h1:hover {
   align-items: center;
   justify-content: center;
   width: 80%;
-  max-width: 1200px;
+  max-width: 1700px;
+  font-size: 40px;
 }
 
 /* Image Styling */
 .image-container img {
-  width: 320px; /* Adjust size as needed */
+  width: 370px; /* Adjust size as needed */
   margin-right: 50px; /* Space between image and text */
+  padding: 300px 50px;
 }
 
 /* Text Section */
