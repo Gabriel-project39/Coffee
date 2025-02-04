@@ -60,4 +60,79 @@ h1:hover {
   .shop-now:hover{
     background-color:#733C02;
   }
-   
+  .img-container{
+    width: 500px;
+    height: 400px;
+  }
+  h2{
+    color: white;
+    font-family: "Playfair Display SC", serif; 
+    display: flex;
+    padding: 0% 0px;
+    margin:  0px;
+    align-items: center;
+  }
+  /* Main Section */
+.story-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* Image Styling */
+.image-container img {
+  width: 320px; /* Adjust size as needed */
+  margin-right: 50px; /* Space between image and text */
+}
+
+/* Text Section */
+.text-container {
+  max-width: 500px;
+}
+
+/* Heading with Line */
+.heading-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between line and text */
+  margin-bottom: 10px;
+}
+
+.text-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Horizontal Line */
+.line {
+  width: 80px;
+  height: 2px;
+  background-color: white;
+  border: none;
+}
+
+/* Paragraph */
+.text-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.learn-more {
+  background-color: #C49A6C;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.learn-more:hover {
+  background-color: #733C02;;
+}
