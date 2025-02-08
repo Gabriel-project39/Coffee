@@ -71,7 +71,7 @@ h1:hover {
     padding: 0% 0px;
     margin:  0px;
     align-items: center;
-    font-size: 60px;
+    font-size: 80px;
   }
   /* Main Section */
 .story-section {
@@ -138,4 +138,13 @@ h1:hover {
 
 .learn-more:hover {
   background-color: #733C02;;
+}
+h3{
+  color: white;
+    font-family: "Playfair Display SC", serif; 
+    display: flex;
+    padding: 0% 0px;
+    margin:  0px;
+    align-items: center;
+    font-size: 50px;
 }
