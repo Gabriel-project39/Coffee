@@ -148,3 +148,17 @@ h3{
     align-items: center;
     font-size: 50px;
 }
+.learn-More {
+  background-color: #C49A6C;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.learn-More:hover {
+  background-color: #733C02;;
+}
