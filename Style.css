@@ -146,11 +146,28 @@ h3{
     padding: 0% 0px;
     margin:  0px;
     align-items: center;
-    font-size: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.pic{
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: right;
+}
+.pic img{
+  width: 300px; /* Adjust size */
+    position: absolute;
+    right: -300px;
+    top: 80%;
+    transform: translateY(-50%);
+    margin-left: 1000px;
 }
 .btn {
   background-color: #C49A6C;
-  color: black;
+  color: rgb(3, 2, 2);
   padding: 12px 24px;
   border: none;
   border-radius: 5px;
