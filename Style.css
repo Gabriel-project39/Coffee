@@ -148,7 +148,7 @@ h3{
     align-items: center;
     font-size: 50px;
 }
-.learn-More {
+.btn {
   background-color: #C49A6C;
   color: black;
   padding: 12px 24px;
@@ -159,6 +159,6 @@ h3{
   transition: 0.3s;
 }
 
-.learn-More:hover {
+.btn:hover {
   background-color: #733C02;;
 }
