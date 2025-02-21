@@ -164,7 +164,19 @@ h3{
     top: 80%;
     transform: translateY(-50%);
     margin-left: 1000px;
-}
+      /* Rotation Animation */
+      animation: rotate 5s linear infinite;
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: translateY(-50%) rotate(0deg);
+        }
+        to {
+            transform: translateY(-50%) rotate(360deg);
+        }
+    }
+
 .btn {
   background-color: #C49A6C;
   color: rgb(3, 2, 2);
