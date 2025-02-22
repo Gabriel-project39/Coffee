@@ -88,6 +88,18 @@ h1:hover {
   width: 370px; /* Adjust size as needed */
   margin-right: 50px; /* Space between image and text */
   padding: 300px 50px;
+     /* Rotation Animation */
+     animation: rotate 5s linear infinite;
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: translateY(-50%) rotate(0deg);
+        }
+        to {
+            transform: translateY(-50%) rotate(360deg);
+        }
+
 }
 
 /* Text Section */
