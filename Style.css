@@ -63,6 +63,7 @@ h1:hover {
   .img-container{
     width: 500px;
     height: 400px;
+    
   }
   h2{
     color: white;
@@ -88,19 +89,16 @@ h1:hover {
   width: 370px; /* Adjust size as needed */
   margin-right: 50px; /* Space between image and text */
   padding: 300px 50px;
-     /* Rotation Animation */
-     animation: rotate 5s linear infinite;
-    }
-    
-    @keyframes rotate {
-        from {
-            transform: translateY(-50%) rotate(0deg);
-        }
-        to {
-            transform: translateY(-50%) rotate(360deg);
-        }
-
+  animation: spin 9s linear infinite;
 }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
 
 /* Text Section */
 .text-container {
@@ -177,7 +175,7 @@ h3{
     transform: translateY(-50%);
     margin-left: 1000px;
       /* Rotation Animation */
-      animation: rotate 5s linear infinite;
+      animation: rotate 9s linear infinite;
     }
     
     @keyframes rotate {
