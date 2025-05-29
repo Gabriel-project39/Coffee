@@ -201,3 +201,12 @@ h3{
 .btn:hover {
   background-color: #733C02;;
 }
+@media screen and (max-width: 700px) {
+  .navbar .navbar ul{
+    display: block;
+    position: flex;
+    background-color: #fff;
+    width: 100px;
+    left: 0%;
+  }
+}
