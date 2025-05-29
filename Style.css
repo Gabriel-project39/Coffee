@@ -202,11 +202,18 @@ h3{
   background-color: #733C02;;
 }
 @media screen and (max-width: 700px) {
-  .navbar .navbar ul{
+  .navbar ul {
     display: block;
-    position: flex;
     background-color: #fff;
-    width: 100px;
-    left: 0%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .navbar a {
+    color: black;
   }
 }
