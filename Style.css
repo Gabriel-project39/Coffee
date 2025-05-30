@@ -29,6 +29,8 @@ h1{
   font-size: 28px;
   color: white;
   cursor: pointer;
+  transition: right 0.3s ease;
+  
 }
 
 /* Nav links */
@@ -217,6 +219,18 @@ h3{
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
+    right: 30px;
+  }
+   .navbar {
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 18px;   /* Adjust top position if needed */
+    /* Dynamic horizontal position: moves left as screen shrinks */
+  right: clamp(10px, 10vw, 40px);
   }
 
   .nav-links {
