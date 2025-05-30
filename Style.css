@@ -260,5 +260,27 @@ h3{
     padding: 10px;
   }
 }
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  object-fit: cover;
+  display: block;
+  margin: 100px auto 20px auto; /* space under fixed navbar */
+  border-radius: 10px;
+}
+
+/* Optional tweak for smaller devices */
+@media screen and (max-width: 768px) {
+  .hero-image {
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-image {
+    max-height: 300px;
+  }
+}
 
 
