@@ -273,13 +273,13 @@ h3{
 /* Optional tweak for smaller devices */
 @media screen and (max-width: 768px) {
   .hero-image {
-    max-height: 400px;
+    max-height: 400px;/* Adjust size */
   }
 }
 
 @media screen and (max-width: 480px) {
   .hero-image {
-    max-height: 300px;
+    max-height: 300px;/* Adjust size */
   }
 }
 
