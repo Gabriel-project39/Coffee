@@ -136,7 +136,7 @@ h1:hover {
 /* Horizontal Line */
 .line {
   width: 80px;
-  height: 2px;
+  height: 2px; /* Adjust size */
   background-color: white;
   border: none;
 }
