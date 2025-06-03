@@ -96,6 +96,7 @@ h1:hover {
   width: 80%;
   max-width: 1700px;
   font-size: 40px;
+ 
 }
 
 /* Image Styling */
@@ -173,6 +174,34 @@ h3{
     font-size: 3rem;
     font-weight: bold;
 }
+/* Tablet Screen (max 768px) */
+@media (max-width: 768px) {
+  .story-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .image-container img {
+    width: 280px;
+    padding: 10px;
+  }
+
+  .text-container h2 {
+    font-size: 32px;
+  }
+
+  .text-container p {
+    font-size: 16px;
+  }
+
+  .learn-more {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}
+
+
 .pic{
   position: relative;
     display: flex;
