@@ -105,6 +105,7 @@ h1:hover {
   margin-right: 50px; /* Space between image and text */
   padding: 300px 50px;
   animation: spin 9s linear infinite;
+
 }
 
   @keyframes spin {
@@ -125,7 +126,7 @@ h1:hover {
   display: flex;
   align-items: center;
   gap: 15px; /* Space between line and text */
-  margin-bottom: 10px;
+  margin-bottom: 70px;
 }
 
 .text-container h2 {
@@ -146,7 +147,7 @@ h1:hover {
 .text-container p {
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 /* Button Styling */
