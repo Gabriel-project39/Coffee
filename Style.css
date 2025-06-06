@@ -422,6 +422,7 @@ width: calc(100% / 3 -110px);
   margin: 30px;
   padding: 80px;
   border: 1px solid gainsboro;
+  background-color: #a196946c;
 }
 
 #form-details form {
@@ -468,4 +469,67 @@ width: calc(100% / 3 -110px);
   font-size: 16px;
   font-weight: 600;
   color: teal;
+}
+
+
+
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #091f36;
+}
+
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #606063;
+}
+
+#newsletter p span {
+  color: teal;
+}
+
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+button.blue {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.2s;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+button.blue:hover {
+  background: #c80e13;
+  border: 1px solid #c80e13;
 }
