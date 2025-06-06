@@ -330,3 +330,21 @@ h3{
   object-fit: cover;
   border-radius: var(--border-radius-circle);
 }
+
+/* Menu section styling */
+.menu-section .menu-list{
+display: flex;
+flex-wrap: wrap;
+gap: 110px;
+align-items: center;
+justify-content: space-between;
+list-style: none;
+}
+
+.menu-section .menu-list .menu-item {
+display: flex;
+align-items: center;
+text-decoration: none;
+list-style: none;
+
+}
