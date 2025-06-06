@@ -32,7 +32,7 @@
     <div class="details">
         <span>GET IN TOUCH</span>
         <h2>Visit Our Nearest Available Shop</h2>
-        <h3>Head Office</h3>
+        <h3>Head Hotel</h3>
         <div>
             <li>
                 <i class="fal fa-map"></i>
@@ -44,16 +44,52 @@
             </li>
             <li>
                 <i class='bx bx-phone' ></i>
-                <p>0712345678</p>
+                <p>0778635247</p>
             </li>
             <li>
                 <i class="far fa-clock"></i>
-                <p>Monday to Monday:9.00am to Midnight</p>
+                <p>Monday to Monday:8.00am to Midnight</p>
             </li>
         </div>
     </div>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.2825976593194!2d34.4733204694998!3d-1.0639943999328576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d3537d3e0cf2ab%3A0x30ba37764628a67a!2sODMAS%20LIQUOR!5e0!3m2!1sen!2ske!4v1731636983608!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <style>
+    #map {
+      height: 300px;    /* Smaller height */
+      width: 300px;     /* Smaller width */
+      float: right;     /* Moves it to the right */
+      margin: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    const lat = -1.34539;
+    const lng = 36.71411;
+
+    const map = L.map('map').setView([lat, lng], 18); // Focused zoom
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    L.marker([lat, lng])
+      .addTo(map)
+      .bindPopup('Karen Blixen Coffee Garden & Cottages')
+      .openPopup();
+  </script>
+  </script>
     </div>
 </section>
 <section id="form-details">
@@ -70,15 +106,15 @@
 <div class="people">
     <div>
         <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="picha">
-        <p><span>Jane Doe</span>Senior Marketing Manager<br/> Phone : 0712345678<br/>Email: abugabugabuga@gmail.com</p>
+        <p><span>Mkurugenzi</span>Senior Marketing Manager<br/> Phone : 0712345678<br/>Email: bugarg@gmail.com</p>
     </div>
     <div>
-        <img src="https://images.unsplash.com/photo-1570158268183-d296b2892211?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="picha">
-        <p><span>John Doe</span>Senior Marketing Manager<br/> Phone : 0712345678<br/>Email: abugabugabuga@gmail.com</p>
+        <img src="https://images.unsplash.com/photo-1745613184657-3c8dcd5f079a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ3fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D" alt="picha">
+        <p><span>Dr Kingori</span>Senior Marketing Manager<br/> Phone : 0712345678<br/>Email: abugab@gmail.com</p>
     </div>
     <div>
-        <img src="https://images.unsplash.com/photo-1630208232589-e42b29428b19?q=80&w=938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="picha">
-        <p><span>Paul Obiero</span>Senior Software Engineer<br/> Phone : 0712345678<br/>Email: obieropauldev@gmail.com</p>
+        <img src="https://images.unsplash.com/photo-1739614621579-8f8f396c7412?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D" alt="picha">
+        <p><span>Gabriel Kimanthi</span>Senior Software Engineer<br/> Phone : 0712345678<br/>Email: gabrielkimanthi@gmail.com</p>
     </div>
 </div>
 </section>
