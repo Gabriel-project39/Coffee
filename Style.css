@@ -534,11 +534,6 @@ button.blue:hover {
   border: 1px solid #c80e13;
 }
 
-.picha {
-  height: 30px;
-  background-color: aliceblue;
-  background-color: #f1f1f1;
-}
 
 footer {
   display: flex;
