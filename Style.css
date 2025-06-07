@@ -317,22 +317,49 @@ h3{
 .about-section{
   padding: 120px 0;
   background: var(--light-pink-color);
-  background-color: #ccc;
 }
 .about-section .about-section{
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: space-between;
-  background-color: #ccc;
 }
 .about-section .about-image-wrapper .about-image {
   width: 400px;
   height: 400px;
   object-fit: cover;
   border-radius: var(--border-radius-circle);
-  background-color: #ccc;
 }
+.section-title{
+text-align: center;
+padding: 60px 0 100px;
+text-transform: uppercase;
+font-size: var(font-size-x1);
+}
+.section-title::after{
+  content: ;
+  width: 80px;
+  height: 5px;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: var(--border-radius-s);
+  background: var(--secondary-color);
+
+}
+.about-section .social-link-list{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.about-section .social-link-list .social-link{
+  color: var(--primary-color);
+  font-size: var(--font-size);
+  transition: 0.2s ease;
+}
+.about-section .social-link-list .social-link:hover{
+  color: var(--secondary-color);
+}
+
 
 /* Menu section styling */
 body{
