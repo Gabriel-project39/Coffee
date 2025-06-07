@@ -317,18 +317,21 @@ h3{
 .about-section{
   padding: 120px 0;
   background: var(--light-pink-color);
+  background-color: #ccc;
 }
 .about-section .about-section{
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: space-between;
+  background-color: #ccc;
 }
 .about-section .about-image-wrapper .about-image {
   width: 400px;
   height: 400px;
   object-fit: cover;
   border-radius: var(--border-radius-circle);
+  background-color: #ccc;
 }
 
 /* Menu section styling */
