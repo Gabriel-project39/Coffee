@@ -89,24 +89,34 @@ h1:hover {
     font-size: 80px;
   }
   /* Main Section */
+/* Main Section */
 .story-section {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between;
   width: 80%;
   max-width: 1700px;
   font-size: 40px;
- 
+  margin: 0 auto;
+  padding-top: 100px; /* Optional: add some top spacing to the section */
+  gap: 50px; /* Space between image and text */
 }
 
 /* Image Styling */
 .image-container img {
-  width: 370px; /* Adjust size as needed */
-  margin-right: 50px; /* Space between image and text */
-  padding: 300px 50px;
+  width: 370px;
+  margin-right: 50px;
+  padding: 0; /* Removed excessive padding */
   animation: spin 9s linear infinite;
-
 }
+
+/* Text Section */
+.text-container {
+  max-width: 600px;
+  margin-top: 0; /* Make sure it starts from the top */
+  flex: 1;
+}
+
 
   @keyframes spin {
     0% { transform: rotate(0deg); }
