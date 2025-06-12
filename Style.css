@@ -355,24 +355,28 @@ h3{
   text-align: center;
 }
 
-.section-title {
-  text-transform: uppercase;
-  font-size: var(--font-size-x1);
+.section-header {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: var(--font-size-x1);
+  text-transform: uppercase;
+  display: inline-block;
   position: relative;
+  color: white; /* or your preferred text color */
 }
 
 .section-title::after {
   content: "";
+  display: block;
   width: 80px;
   height: 5px;
-  display: block;
+  background-color: var(--secondary-color); /* your orange color */
   margin: 10px auto 0;
   border-radius: var(--border-radius-s);
-  background: var(--secondary-color);
 }
-
 
 
 .about-details p {
