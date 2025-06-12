@@ -352,14 +352,15 @@ h3{
   flex: 1;
   color: white;
   max-width: 500px;
+  text-align: center;
 }
 
 .section-title {
   text-transform: uppercase;
   font-size: var(--font-size-x1);
-  position: relative;
+  text-align: center;
   margin-bottom: 20px;
-  color: white;
+  position: relative;
 }
 
 .section-title::after {
@@ -367,10 +368,12 @@ h3{
   width: 80px;
   height: 5px;
   display: block;
-  margin: 10px;
+  margin: 10px auto 0;
   border-radius: var(--border-radius-s);
   background: var(--secondary-color);
 }
+
+
 
 .about-details p {
   font-size: var(--font-size);
