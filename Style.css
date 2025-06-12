@@ -367,7 +367,7 @@ h3{
   width: 80px;
   height: 5px;
   display: block;
-  margin: 10px 0;
+  margin: 10px;
   border-radius: var(--border-radius-s);
   background: var(--secondary-color);
 }
