@@ -379,6 +379,12 @@ h3{
   color: white;
 }
 
+.social-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .social-link-list {
   display: flex;
   gap: 25px;
