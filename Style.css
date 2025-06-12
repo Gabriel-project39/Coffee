@@ -314,51 +314,87 @@ h3{
 }
 
 /* About section styling */
-.about-section{
-  padding: 120px 0;
-  background: var(--light-pink-color);
+:root {
+  --light-pink-color: #fef1f2;
+  --secondary-color: #f4a261;
+  --primary-color: #000;
+  --font-size: 20px;
+  --font-size-x1: 28px;
+  --border-radius-circle: 50%;
+  --border-radius-s: 5px;
 }
-.about-section .about-section{
+
+/* About Section Styling */
+.about-section {
+  padding: 120px 80px;
+  background: #000;
   display: flex;
   gap: 50px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.about-section .about-image-wrapper .about-image {
+
+.about-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
   width: 400px;
   height: 400px;
   object-fit: cover;
   border-radius: var(--border-radius-circle);
 }
-.section-title{
-text-align: center;
-padding: 60px 0 100px;
-text-transform: uppercase;
-font-size: var(font-size-x1);
+
+.about-details {
+  flex: 1;
+  color: white;
+  max-width: 500px;
 }
-.section-title::after{
-  content: ;
+
+.section-title {
+  text-transform: uppercase;
+  font-size: var(--font-size-x1);
+  position: relative;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.section-title::after {
+  content: "";
   width: 80px;
   height: 5px;
   display: block;
-  margin: 10px auto 0;
+  margin: 10px 0;
   border-radius: var(--border-radius-s);
   background: var(--secondary-color);
-
 }
-.about-section .social-link-list{
+
+.about-details p {
+  font-size: var(--font-size);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.social-link-list {
   display: flex;
   gap: 25px;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.about-section .social-link-list .social-link{
-  color: var(--primary-color);
-  font-size: var(--font-size);
-  transition: 0.2s ease;
+
+.social-link {
+  color: white;
+  font-size: 24px;
+  transition: 0.3s ease;
 }
-.about-section .social-link-list .social-link:hover{
+
+.social-link:hover {
   color: var(--secondary-color);
 }
+
 
 
 /* Menu section styling */
