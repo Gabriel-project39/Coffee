@@ -63,6 +63,54 @@ h1:hover {
     align-items: center; 
   }
   
+  /* HERO SECTION */
+.her {
+  background-image: url('your-image-path.jpg'); /* Use your coffee cup and beans image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+/* Overlay (optional for darkening) */
+.her::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2); /* Optional */
+  z-index: 1;
+}
+
+/* Content on top of image */
+.her-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+/* Main heading */
+.man-heading {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Sub-heading */
+.sub-heading {
+  font-size: 28px;
+  color: #C49A6C; /* Coffee brown */
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
   .shop-now {
     padding: 15px 20px;
     background-color: #deab5f;
