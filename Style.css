@@ -225,6 +225,7 @@ h1:hover {
 .learn-more:hover {
   background-color: #733C02;;
 }
+
 h3{
   color: white;
     font-family: "Playfair Display SC", serif; 
@@ -246,7 +247,7 @@ h3{
   }
 
   .text-container {
-    text-align: center;
+    text-align: left;
   }
 
   .heading-container {
