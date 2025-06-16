@@ -98,6 +98,9 @@ h1:hover {
   color: white;
 }
 
+.sub-heading:hover{
+  background-color: #deab5f;
+}
   .shop-now {
     padding: 15px 20px;
     background-color: #deab5f;
