@@ -234,6 +234,7 @@ h3{
     
   }
 
+
   .text-container {
     text-align: left;
     margin: auto;
@@ -247,6 +248,7 @@ h3{
   h3 {
     font-size: 2.2rem;
   }
+  
 }
 
 /* Small Screens (phones, <= 768px) */
@@ -254,6 +256,14 @@ h3{
   .text-container h2 {
     font-size: 28px;
   }
+
+  
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: white;
+  border: none;
+}
 
   .text-container p {
     font-size: 16px;
@@ -274,6 +284,7 @@ h3{
   }
 }
 
+
 /* Extra Small Screens (<= 480px) */
 @media (max-width: 480px) {
   .line {
@@ -283,7 +294,13 @@ h3{
   .text-container p {
     font-size: 14px;
   }
-
+   
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: white;
+  border: none;
+}
   .pic img {
     width: 60px;
     
@@ -308,7 +325,7 @@ h3{
   }
 
   .text-container h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .text-container p {
