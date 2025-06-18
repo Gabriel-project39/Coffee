@@ -163,9 +163,6 @@ h1:hover {
     100% { transform: rotate(360deg); }
 }
 
-
-
-
 /* Text Section */
 .text-container {
   max-width: 500px;
@@ -233,7 +230,7 @@ h3{
 @media (max-width: 1024px) {
   .story-section {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .text-container {
@@ -285,7 +282,8 @@ h3{
   }
 
   .pic img {
-    width: 90px;
+    width: 60px;
+    
   }
 
   h3 {
