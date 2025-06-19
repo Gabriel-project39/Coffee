@@ -305,7 +305,8 @@ h3{
   .pic img {
     width: 60px;
     margin-top: 400px;
-    
+    right: -1900px;
+    position: relative;
   }
 
   h3 {
