@@ -302,11 +302,16 @@ h3{
   background-color: white;
   border: none;
 }
+ .pic {
+    position: relative; /* Needed to make absolute positioning work inside */
+  }
+
   .pic img {
-    width: 60px;
-    margin-top: 400px;
-    right: 3500px;
-    position: relative;
+    position: absolute;
+    width: 120px;        /* You can adjust this */
+    top: 380px;          /* Moves image downward */
+    left: auto;          /* Reset any left if it was set before */
+    right: 700px;         /* Moves image to the right */
   }
 
   h3 {
